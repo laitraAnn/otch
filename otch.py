@@ -7,9 +7,9 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # Токен вашего бота
-TOKEN = "YOUR_BOT_TOKEN"
+TOKEN = "7136972649:AAFIZLo1ZFPzOit2-YiEbWpm4kn5Ec3mdoA"
 # ID канала (например, @testchannel → передавайте как "-1001234567890")
-CHANNEL_ID = "-1001234567890"  
+CHANNEL_ID = "-1001522061930"  
 
 def start(update: Update, context: CallbackContext) -> None:
     """Команда /start для проверки бота"""
